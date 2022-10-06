@@ -66,6 +66,8 @@ The following is a list of steps and instructions on how to complete this guided
 
 ### Zorak
 
+### Brak
+
 ### Space Ghost
 
 ### Blip (add 3 names above this line 👆)
