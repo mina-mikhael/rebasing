@@ -21,19 +21,23 @@
 The following is a list of steps and instructions on how to complete this guided project.
 
 - **Step 1️⃣:** Fork this repo into your personal account
+
   - then clone this repository by clicking the green **Clone or Download** (or new **Code**) button in the top right.
-![Clone/Download](https://tk-assets.lambdaschool.com/054e5ad4-75cd-4b98-b929-7bf453bc8263_ScreenShot2020-04-13at7.31.05AM.png)
+    ![Clone/Download](https://tk-assets.lambdaschool.com/054e5ad4-75cd-4b98-b929-7bf453bc8263_ScreenShot2020-04-13at7.31.05AM.png)
 
 - **Step 2️⃣:** CD into the repository and create a branch off of the main branch.
+
   - `cd rebasing`
   - Name the branch **"feature/add-my-name"** `git checkout -b feature/add-name`
   - **note**: this is a common naming convention. In labs you will often use the Jira issue number in your branch name.
   - Once the branch is created, you've been switched to the new branch.
 
 - **Step 3️⃣:** Now that you have created your branch you're ready to do your work. Our task for the day is to have you add your name (`### Your name`) heading to the end of this README.md file.
+
   - (**note** the semantically chosen branch name you created coincides with the task at hand)
 
 - **Step 4️⃣:** Run your typical staging and commit:
+
   - `git status` - should only show the one file as modified
   - `git add <file-name>` - try to practice only adding files that support your commit message
   - `git commit -m 'your message'`
@@ -48,9 +52,9 @@ The following is a list of steps and instructions on how to complete this guided
   - Lets repeat this process adding a commit for each name. Add the following names BEFORE `### Space Ghost`
     - Zorak
     - Brak
-  
 - **Step 6️⃣:** Ok, we now have 3 commits on the main branch that our feature branch doesn't have.
-  - Open the log of commits `git log` and look at the last 4 commits. The first 3 are the new ones you just created, the 4th one is the commit you created your feature branch from. 
+
+  - Open the log of commits `git log` and look at the last 4 commits. The first 3 are the new ones you just created, the 4th one is the commit you created your feature branch from.
   - Now lets switch to the feature branch `git checkout feature/add-my-name`
   - Open the log of commits `git log`. Do you see the 2nd commit that is the same as the 4th one on the main branch?
 
@@ -59,5 +63,7 @@ The following is a list of steps and instructions on how to complete this guided
   - You should see the message `Successfully rebased and updated refs/heads/feature/add-my-name.`
   - Now have a look at the log of commits `git log`
   - You should see your name commit as the first entry. You should also now see the 3 new commits from main following your commit.
+
+### Space Ghost
 
 ### Blip (add 3 names above this line 👆)
